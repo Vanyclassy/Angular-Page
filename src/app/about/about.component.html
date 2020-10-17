@@ -1,0 +1,10 @@
+<mat-form-field appearance="fill">
+  <mat-label>Currency</mat-label>
+  <mat-select [(value)]="selected">
+    <mat-option value="USD">USD($)</mat-option>
+    <mat-option value="EUR">EUR(&#8364;)</mat-option>
+    <mat-option value="RUB">RUB(&#8381;)</mat-option>
+  </mat-select>
+</mat-form-field>
+
+<p>You selected: {{selected}}</p>
